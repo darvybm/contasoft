@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'edu.pucmm.contabilidad'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'edu.pucmm.contabilidad.Main'
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation "org.slf4j:slf4j-simple:2.0.5"
+    implementation 'org.freemarker:freemarker:2.3.30'
+    //ORM - Hibernate.
+    implementation 'org.hibernate.orm:hibernate-core:6.0.2.Final'
+    //implementation 'org.hibernate:hibernate-entitymanager:6.0.0.Alpha7'
+    implementation group: 'org.jasypt', name: 'jasypt', version: '1.9.3'
+    //Driver de la conexión en h2...
+    implementation 'com.h2database:h2:2.1.212'
+    //JDBC
+    implementation 'org.postgresql:postgresql:42.2.1'
+    implementation 'org.thymeleaf:thymeleaf:3.1.1.RELEASE'
+    implementation("io.javalin:javalin:6.3.0")
+    implementation("io.javalin:javalin-rendering:6.3.0")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+run {
+    standardInput = System.in
+}
