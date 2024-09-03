@@ -234,17 +234,17 @@ Here are the contributors to this project:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/your-username">
+      <a href="https://github.com/darvybm">
         <img src="https://github.com/darvybm.png" width="100px;" alt="Your Name"/>
         <br />
-        <sub><b>Your Name</b></sub>
+        <sub><b>Darvy Betances</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/your-username">
+      <a href="https://github.com/MarcosBlancoPUCMM">
         <img src="https://github.com/MarcosBlancoPUCMM.png" width="100px;" alt="Your Name"/>
         <br />
-        <sub><b>Your Name</b></sub>
+        <sub><b>Marcos Blanco</b></sub>
       </a>
     </td>
   </tr>
