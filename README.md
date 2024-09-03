@@ -1,3 +1,7 @@
+Sure, here is the translated version:
+
+---
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cf5a7217-a4a3-460c-8e5e-125ecaccbcac" alt="Header Image" width="400"/>
 </p>
@@ -11,11 +15,11 @@
 
 # ContaSoft
 
-**ContaSoft** es un sistema de contabilidad basado en la web diseñado para simular el proceso completo de contabilidad en un entorno educativo. La aplicación permite a los usuarios gestionar empresas ficticias, ciclos contables y realizar operaciones contables esenciales como la creación de asientos, visualización de libros mayores, y generación de estados financieros.
+**ContaSoft** is a web-based accounting system designed to simulate the complete accounting process in an educational environment. The application allows users to manage fictional companies, accounting cycles, and perform essential accounting operations such as creating entries, viewing ledgers, and generating financial statements. When entries are added to the journal, other components such as the general ledger, trial balance, and financial statements are automatically updated to reflect the new data.
 
-La aplicación ofrece una interfaz intuitiva que facilita la administración de datos contables y permite la práctica de procesos contables en un entorno controlado. Desarrollada en Java con el framework Javalin y Freemarker para el motor de plantillas, utiliza HTML, CSS, JavaScript y Bootstrap para el frontend, proporcionando una experiencia de usuario fluida y moderna.
+The application features an intuitive interface for managing accounting data and practicing accounting processes in a controlled environment. It is developed in Java using the Javalin framework and Freemarker for the templating engine, with HTML, CSS, JavaScript, and Bootstrap for the frontend, ensuring a smooth and modern user experience.
 
-## Índice
+## Table of Contents
 
 1. [Features](#features)
 2. [Application](#application)
@@ -25,127 +29,125 @@ La aplicación ofrece una interfaz intuitiva que facilita la administración de 
 6. [License](#license)
 7. [Contact Me](#contact-me)
 
-Claro, aquí tienes los títulos de las funcionalidades con emojis al inicio:
-
 ## Features
 
-### 🏢 Registro de Empresas
-Permite a los usuarios registrar empresas ficticias dentro del sistema. Cada empresa puede tener su propia configuración y ciclos contables, facilitando la gestión y organización de datos contables para diferentes entidades.
+### 🏢 Company Registration
+Allows users to register fictional companies within the system. Each company can have its own configuration and accounting cycles, facilitating the management and organization of accounting data for different entities.
 
-### 📅 Creación de Ciclos Contables
-Los usuarios pueden crear ciclos contables para cada empresa registrada. Estos ciclos son fundamentales para la gestión de asientos contables y la generación de informes financieros.
+### 📅 Accounting Cycle Creation
+Users can create accounting cycles for each registered company. These cycles are essential for managing accounting entries and generating financial reports.
 
-### 💳 Gestión de Asientos y Transacciones
-Los usuarios pueden agregar asientos contables con información detallada sobre transacciones financieras. Esto incluye la entrada de débitos y créditos con fechas y descripciones adecuadas, lo cual es crucial para el registro preciso de todas las operaciones contables.
+### 💳 Management of Entries and Transactions
+Users can add accounting entries with detailed information about financial transactions. This includes entering debits and credits with appropriate dates and descriptions, which is crucial for accurately recording all accounting operations.
 
-### 📓 Visualización del Libro Diario
-El libro diario muestra una lista detallada de todos los asientos contables registrados en un ciclo contable específico. La vista permite a los usuarios revisar y verificar todas las transacciones en un formato cronológico.
+### 📓 Journal View
+The journal shows a detailed list of all accounting entries recorded in a specific accounting cycle. The view allows users to review and verify all transactions in a chronological format.
 
-### 📈 Visualización del Libro Mayor
-El libro mayor presenta un desglose detallado de todas las cuentas en formato T para cada ciclo contable. Esta vista permite a los usuarios revisar el saldo y los movimientos de cada cuenta individualmente.
+### 📈 General Ledger View
+The general ledger provides a detailed breakdown of all accounts in T-format for each accounting cycle. This view allows users to review the balance and movements of each individual account.
 
-### 📊 Balanza de Comprobación
-La balanza de comprobación ofrece una visión general del equilibrio entre débitos y créditos en un ciclo contable. Esta vista incluye un desglose detallado de las cuentas, ayudando a verificar la exactitud de los registros contables.
+### 📊 Trial Balance
+The trial balance provides an overview of the balance between debits and credits in an accounting cycle. This view includes a detailed breakdown of the accounts, helping to verify the accuracy of accounting records.
 
-### 📑 Generación de Estados Financieros
-La aplicación permite generar varios estados financieros esenciales, incluyendo:
-- **Estado de Resultados:** Muestra los ingresos y gastos para calcular el beneficio neto o pérdida.
-- **Estado de Cambios en el Capital:** Detalla los cambios en el capital de la empresa durante un período específico.
-- **Estado de Situación (Balance General):** Proporciona una visión general de los activos, pasivos y patrimonio neto de la empresa.
-- **Estado de Flujo de Efectivo:** Muestra los flujos de efectivo provenientes de las actividades operativas, de inversión y de financiación.
+### 📑 Financial Statements Generation
+The application allows generating several essential financial statements, including:
+- **Income Statement:** Shows revenues and expenses to calculate net profit or loss.
+- **Statement of Changes in Equity:** Details changes in the company's equity over a specific period.
+- **Balance Sheet:** Provides an overview of the company's assets, liabilities, and equity.
+- **Cash Flow Statement:** Shows cash flows from operating, investing, and financing activities.
 
-### 📚 Gestión de Catálogo de Cuentas
-El catálogo de cuentas permite a los usuarios agregar nuevas cuentas en categorías como Activo, Pasivo, Gasto e Ingreso. Aquí se presentan las cuentas por defecto que se agregan automáticamente al sistema:
+### 📚 Chart of Accounts Management
+The chart of accounts allows users to add new accounts in categories such as Assets, Liabilities, Expenses, and Revenues. Here are the default accounts that are automatically added to the system:
 
-#### Activos
+#### Assets
 <table>
   <tr>
-    <th>Código</th>
-    <th>Nombre</th>
+    <th>Code</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>111</td>
-    <td>Efectivo</td>
+    <td>Cash</td>
   </tr>
   <tr>
     <td>112</td>
-    <td>Cuentas por Cobrar</td>
+    <td>Accounts Receivable</td>
   </tr>
   <tr>
     <td>114</td>
-    <td>Insumos</td>
+    <td>Supplies</td>
   </tr>
   <tr>
     <td>115</td>
-    <td>Materiales de Oficina</td>
+    <td>Office Materials</td>
   </tr>
   <tr>
     <td>121</td>
-    <td>Terreno</td>
+    <td>Land</td>
   </tr>
   <tr>
     <td>123</td>
-    <td>Mobiliarios y Equipos</td>
+    <td>Furniture and Equipment</td>
   </tr>
 </table>
 
-#### Pasivos
+#### Liabilities
 <table>
   <tr>
-    <th>Código</th>
-    <th>Nombre</th>
+    <th>Code</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>211</td>
-    <td>Documentos por pagar</td>
+    <td>Notes Payable</td>
   </tr>
   <tr>
     <td>212</td>
-    <td>Cuentas por pagar</td>
+    <td>Accounts Payable</td>
   </tr>
 </table>
 
-#### Ingresos
+#### Revenues
 <table>
   <tr>
-    <th>Código</th>
-    <th>Nombre</th>
+    <th>Code</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>411</td>
-    <td>Ingresos por Servicios</td>
+    <td>Service Revenues</td>
   </tr>
 </table>
 
-#### Gastos
+#### Expenses
 <table>
   <tr>
-    <th>Código</th>
-    <th>Nombre</th>
+    <th>Code</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>612.01</td>
-    <td>Gastos por Sueldos</td>
+    <td>Salaries Expenses</td>
   </tr>
   <tr>
     <td>612.05</td>
-    <td>Gastos por Renta</td>
+    <td>Rent Expenses</td>
   </tr>
   <tr>
     <td>612.07</td>
-    <td>Gastos por Telefonos</td>
+    <td>Telephone Expenses</td>
   </tr>
   <tr>
     <td>612.1</td>
-    <td>Gastos por Energía Eléctrica</td>
+    <td>Electricity Expenses</td>
   </tr>
 </table>
 
-#### Capital
+#### Equity
 <table>
   <tr>
-    <th>Código</th>
-    <th>Nombre</th>
+    <th>Code</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>311</td>
@@ -153,57 +155,56 @@ El catálogo de cuentas permite a los usuarios agregar nuevas cuentas en categor
   </tr>
 </table>
 
-#### Retiros
+#### Withdrawals
 <table>
   <tr>
-    <th>Código</th>
-    <th>Nombre</th>
+    <th>Code</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>312</td>
-    <td>Retiros</td>
+    <td>Withdrawals</td>
   </tr>
 </table>
 
 ## Application
 
-Aquí tienes algunas capturas de pantalla y vistas de la aplicación en acción (Las vistas más importantes):
+Here are some screenshots and views of the application in action (Most important views):
 
-**Inicio de Sesión y Registro**
+**Login and Registration**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/65d65201-286b-41c9-babe-25cdeb970b22" alt="Login"/>
 </p>
 
-**Lista de Ciclos Contables**
+**Accounting Cycles List**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/28277a76-6b74-4014-823b-3a91bf2af46a" alt="Accounting Cycles"/>
 </p>
 
-**Vista del Libro Diario**
+**Journal View**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/d4bde41d-647f-4cb2-a581-d1d0729e870d" alt="Journal View"/>
 </p>
 
-**Vista del Libro Mayor**
+**General Ledger View**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/9252cf3e-0437-4c5b-8afa-f04a96d23bb4" alt="General Ledger View"/>
 </p>
 
-**Vista de la Balanza de Comprobación**
+**Trial Balance View**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/51119d03-2dcb-4fc3-b7f1-648ebc9c1065" alt="Trial Balance View"/>
 </p>
 
-**Vista de Estados Financieros**
+**Financial Statements View**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/4a9e7629-58f1-4752-9e64-f1e34290e834" alt="Financial Statements View"/>
 </p>
 
-**Vista de Catálogos de Cuentas**
+**Accounts Catalog View**
 <p align="left">
   <img src="https://github.com/user-attachments/assets/f25767d2-54a5-4c52-9748-8c817c3086a1" alt="Accounts Catalog View"/>
 </p>
-
 
 ## Tools Used
 - **Language:** Java ![Java](https://img.shields.io/badge/Language-Java-blue)
@@ -212,6 +213,7 @@ Aquí tienes algunas capturas de pantalla y vistas de la aplicación en acción 
 - **Build Tool:** Gradle ![Gradle](https://img.shields.io/badge/Build%20Tool-Gradle-02303A?style=flat&logo=gradle&logoColor=white)
 
 ## How to Install
+To run the application,
 To run the application, follow these steps:
 
 1. Clone this repository:
