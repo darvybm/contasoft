@@ -1,7 +1,3 @@
-Sure, here is the translated version:
-
----
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cf5a7217-a4a3-460c-8e5e-125ecaccbcac" alt="Header Image" width="400"/>
 </p>
